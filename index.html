@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge One</title>
+</head>
+<body>
+
+    <header class="logo">
+        <img src="img Encriptador/Logo.png" alt="" class="logo-alura">
+    </header>
+
+    <main>
+        
+        <section class="contenedor-1">
+
+            <div class="textArea-btn">
+                <textarea class="text-area" name="" id="mensaje" cols="30" rows="10" placeholder="ingrese el texto aqui"></textarea>
+                <p class="advertencia">&#9888; Solo letras minusculas y sin acentos</p>
+                <button id="encriptar" class="btn-encriptar">Encriptar</button>
+                <button id="desencriptar" class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        
+        <section class="contenedor-2">
+            <div class="img-parrafos">
+                <img src="img Encriptador/Muñeco.png" alt="" id="img-muñeco" class="imagen-m">
+                <h2 id="h2-mensaje">Ningun mensaje fue encontrado</h2>
+                <p id="mensaje-p">Ingrese el texto que desees encriptar o desencriptar</p>
+            </div>
+            
+            <div id="resultadoArea-btn">
+                <textarea name="" id="resultado" cols="30" rows="10" class="text-resultado"></textarea>
+                <button id="escuchar" class="btn-escuchar">Escuchar</button>
+                <button id="copiar" class="btn-copiar">Copiar</button>
+            </div>
+            
+            <h2 id="error-m"></h2>
+        </section>
+        
+    </main>
+    
+    <footer>
+        <p>&copy; Sebastian Chavez - Encriptador - 2023 <a href="https://github.com/" target="_blank"> <img src="img Encriptador/logo-git.png" alt="" class="logo-git"></a></p>
+    </footer>
+    
+    
+    <script src="btn/encriptar.js"></script>
+    <script src="btn/desencriptar.js"></script>
+    <script src="btn/copiar.js"></script>
+    <script src="btn/escuchar.js"></script>
+    <script src="validar/validar.js"></script>
+
+</body>
+</html>
