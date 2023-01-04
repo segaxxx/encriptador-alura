@@ -339,13 +339,13 @@ footer p{
         font-size: 1rem;
         width: 80%;
         height: 30%;
-        margin: 3.5em 0 0 1.4em;
+        margin: 3em 0 0 1.4em;
         display: none;
     }
 
     footer {
         position: absolute;
-        bottom: -55%;
+        bottom: -60%;
         left: 7%;
     }
 
@@ -455,7 +455,7 @@ footer p{
     footer {
         position: absolute;
         bottom: -70%;
-        left: 20%;
+        left: 10%;
     }
 
     footer p {
