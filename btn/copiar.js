@@ -9,6 +9,7 @@ var btnCopiar = document.querySelector("#copiar");
 
 var errorLetra = document.querySelector("#error-m");
 
+/*
 function copiar(){
     var mensajeEncriptado = inputResultado.value;
     navigator.clipboard.writeText(mensajeEncriptado);
@@ -17,4 +18,13 @@ function copiar(){
 }
 
 btnCopiar.onclick = copiar;
+*/
+
+function copy(){
+	var contenido = document.querySelector("#resultado");
+    contenido.select();
+    document.execCommand("copy");
+    inputMensaje.value = "";
+    inputMensaje.focus();
+}
 
