@@ -376,12 +376,12 @@ footer p{
         width: 90vw;
         height: 43vh;
         margin: 1.5em 0 0 0.6em;
-        font-size: 2rem;
+        font-size: 1.5rem;
         background-color: #f25f4c;
     }
 
     .advertencia {
-        font-size: 1rem;
+        font-size: 0.7rem;
         margin: 0 0 0 0.7rem;
     }
 
@@ -455,7 +455,7 @@ footer p{
 
     footer {
         position: absolute;
-        bottom: -40%;
+        bottom: -50%;
         left: 10%;
     }
 
