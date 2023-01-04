@@ -265,13 +265,13 @@ footer p{
 
     .text-area {
         width: 90vw;
-        height: 50vh;
+        height: 30vh;
         margin: 1.5em 0 0 0.6em;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .advertencia {
-        font-size: 1rem;
+        font-size: 0.9rem;
         margin: 0 0 0 0.7rem;
     }
 
