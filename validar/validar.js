@@ -23,8 +23,8 @@ function validarMensaje(){
             var p = document.createElement("p");
             p.setAttribute("class","error");
             p.textContent = alert("¡SOLO LETRAS MINUSCULAS!");
-            p.textContent = mensajeEncriptado();
             mensajeError.appendChild(p);
+            p.textContent = mensajeEncriptado();
         }
     }
     errorLetra.appendChild(mensajeError);
