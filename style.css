@@ -401,7 +401,7 @@ footer p{
     .img-parrafos {
         position: absolute;
         width: 85%;
-        height: 45vh;
+        height: 50vh;
         top: 8vh;
         left: 7%;
         box-shadow: 5px 5px 10px 10px #BBB;
@@ -427,7 +427,7 @@ footer p{
     #resultadoArea-btn {
         position: absolute;
         width: 85%;
-        height: 45vh;
+        height: 50vh;
         top: 8vh;
         left: 7%;
     }
@@ -454,7 +454,7 @@ footer p{
 
     footer {
         position: absolute;
-        bottom: -70%;
+        bottom: -80%;
         left: 10%;
     }
 
