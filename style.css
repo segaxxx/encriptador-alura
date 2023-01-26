@@ -207,18 +207,19 @@ footer p{
     width: 1.5vw;
 }
 
-/*
-@media screen and (max-width: 376px){
+
+@media screen and (max-width: 361px){
 
     .logo-alura{
         width: 25vw;
         margin-top: 1em;
     }
-
+    
     .text-area{
         font-size: 1.7rem;
+        background-color: #2cb67d;
     }
-
+/*
     #mensaje{
         height: 40vh;
     }
@@ -279,6 +280,10 @@ footer p{
 
     .logo{
         margin: 0 0 0 0;
+    }
+
+    .logo-alura{
+        margin-top: 1em;
     }
 
     main{
