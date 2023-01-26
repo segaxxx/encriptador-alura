@@ -207,7 +207,7 @@ footer p{
     width: 1.5vw;
 }
 
-
+/*
 @media screen and (max-width: 376px){
 
     .logo-alura{
@@ -270,7 +270,7 @@ footer p{
         width: 4vw;
     }
 }
-
+*/
 
 @media screen and (max-width: 480px){
     body{
