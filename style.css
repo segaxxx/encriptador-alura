@@ -208,7 +208,7 @@ footer p{
 }
 
 
-@media screen and (max-width: 361px){
+@media screen and (max-width: 376px){
 
     .logo-alura{
         width: 25vw;
@@ -217,7 +217,6 @@ footer p{
 
     .text-area{
         font-size: 1.7rem;
-        background-color: #3da9fc;
     }
 
     #mensaje{
