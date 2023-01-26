@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Challenge Encriptador</title>
+    <title>Document</title>
 </head>
 <body>
 
@@ -19,40 +19,40 @@
 
             <div class="textArea-btn">
                 <textarea class="text-area" name="" id="mensaje" cols="30" rows="10" placeholder="ingrese el texto aqui"></textarea>
-                <p class="advertencia">&#9888; Solo letras minusculas y sin acentos</p>
-                <button id="encriptar" class="btn-encriptar">Encriptar</button>
-                <button id="desencriptar" class="btn-desencriptar">Desencriptar</button>
+                <p class="advertencia" id="letra-advertencia">&#9888; Solo letras minusculas y sin acentos</p>
+                <button id="encriptar" class="btn-encriptar" onclick="btnEncriptar()">Encriptar!</button>
+                <button id="desencriptar" class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar!</button>
             </div>
         </section>
         
         <section class="contenedor-2">
-            <div class="img-parrafos">
-                <img src="img-encriptador/Muñeco.png" alt="" id="img-muñeco" class="imagen-m">
-                <h2 id="h2-mensaje">Ningun mensaje fue encontrado</h2>
-                <p id="mensaje-p">Ingrese el texto que desees encriptar o desencriptar</p>
+            
+            <div class="img-parrafos" id="img-mensaje">
+                <img src="img-encriptador/Muñeco.png" class="imagen-m">
+                <h2>Ningun mensaje fue encontrado</h2>
+                <p>Ingrese el texto que desees encriptar o desencriptar</p>
+            </div>
+
+            <div id="resultadoArea-btn" class="btn-resultado">
+                <div class="btn-textArea">
+                    <textarea name="" id="resultado" cols="30" rows="10" class="text-resultado"></textarea>
+                    <button id="escuchar" class="btn-escuchar" onclick="escuchar()">Escuchar</button>
+                    <button id="copiar" class="btn-copiar" onclick="copy()">Copiar</button>
+                </div>
             </div>
             
-            <div id="resultadoArea-btn">
-                <textarea name="" id="resultado" cols="30" rows="10" class="text-resultado"></textarea>
-                <button id="escuchar" class="btn-escuchar">Escuchar</button>
-                <button id="copiar" class="btn-copiar" onclick="copy()">Copiar</button>
-            </div>
-        
-            <h2 id="error-m"></h2>
+    
         </section>
         
+        <footer>
+            <p>&copy; asdasasdsdasdasdas <a href="https://github.com/" target="_blank"> <img src="img-encriptador/logo-git.png" alt="" class="logo-git"></a></p>
+        </footer>
+      
     </main>
-    
-    <footer>
-        <p>&copy; Sebastian Chavez - Encriptador - 2023 <a href="https://github.com/" target="_blank"> <img src="img-encriptador/logo-git.png" alt="" class="logo-git"></a></p>
-    </footer>
-    
-    
-    <script src="btn/encriptar.js"></script>
-    <script src="btn/desencriptar.js"></script>
-    <script src="btn/copiar.js"></script>
-    <script src="btn/escuchar.js"></script>
-    <script src="validar/validar.js"></script>
 
+    <script src="javascript.js"></script>
+    
 </body>
 </html>
+
+
