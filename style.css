@@ -217,7 +217,6 @@ footer p{
     
     .text-area{
         font-size: 1.7rem;
-        background-color: #2cb67d;
     }
 
     #mensaje{
@@ -234,44 +233,9 @@ footer p{
         height: 9vh;
         margin: 0.5em 0;
     }
-/*
-    #img-mensaje{
-        height: 35vh;
-    }
     
-    .img-parrafos h2{
-        width: 80%;
-        font-size: 1.3rem;
-    }
-
-    .img-parrafos p{
-        width: 80%;
-        font-size: 1rem;
-    }
-
-
-    #resultado{
-        font-size: 1.5rem;
-        height: 35vh;
-    }
-
-    #copiar{
-        margin-top: 4em;
-    }
-
-    footer{
-        position: static;
-    }
-
-    footer p{
-        font-size: 0.8rem;
-    }
-
-    .logo-git {
-        width: 4vw;
-    }
 }
-*/
+
 
 @media screen and (max-width: 480px){
     body{
