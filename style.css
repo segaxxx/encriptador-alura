@@ -208,7 +208,7 @@ footer p{
 }
 
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 361px){
 
     .logo-alura{
         width: 25vw;
@@ -216,12 +216,26 @@ footer p{
     }
 
     .text-area{
-        font-size: 1.8rem;
-        background-color: #2cb67d;
+        font-size: 1.7rem;
+    }
+
+    #mensaje{
+        height: 40vh;
     }
 
     #letra-advertencia{
-        font-size: 1rem;
+        font-size: 0.8rem;
+        margin: 1em 0;
+    }
+
+    .btn-encriptar,
+    .btn-desencriptar {
+        height: 11vh;
+        margin: 2em 0;
+    }
+
+    #img-mensaje{
+        height: 35vh;
     }
     
     .img-parrafos h2{
@@ -231,6 +245,11 @@ footer p{
 
     #resultado{
         font-size: 1.5rem;
+        height: 35vh;
+    }
+
+    #copiar{
+        margin-top: 4em;
     }
 
     footer{
