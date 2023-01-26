@@ -208,7 +208,7 @@ footer p{
 }
 
 
-@media screen and (max-width: 281px){
+@media screen and (max-width: 350px){
 
     .logo-alura{
         width: 25vw;
@@ -220,7 +220,7 @@ footer p{
     }
 
     #letra-advertencia{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     
     .img-parrafos h2{
@@ -234,6 +234,14 @@ footer p{
 
     footer{
         position: static;
+    }
+
+    footer p{
+        font-size: 0.8rem;
+    }
+
+    .logo-git {
+        width: 4vw;
     }
 }
 
