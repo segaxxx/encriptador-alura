@@ -219,7 +219,7 @@ footer p{
         font-size: 1.7rem;
         background-color: #2cb67d;
     }
-/*
+
     #mensaje{
         height: 40vh;
     }
@@ -231,10 +231,10 @@ footer p{
 
     .btn-encriptar,
     .btn-desencriptar {
-        height: 11vh;
-        margin: 2em 0;
+        height: 9vh;
+        margin: 0.5em 0;
     }
-
+/*
     #img-mensaje{
         height: 35vh;
     }
