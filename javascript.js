@@ -5,7 +5,7 @@ const contenido = document.querySelector("#resultado");
 const btnEscuchar = document.querySelector("#resultado");
 
 function btnEncriptar(){
-
+    if (validarCajaTexto(validacion.value));
     ocultarAdelante()
     const textoEncriptado = encriptar(textArea.value)
     mensaje.value = textoEncriptado;
@@ -31,6 +31,7 @@ function encriptar(stringEncriptado){
 }
 
 function btnDesencriptar(){
+    if (validarCajaTexto(validacion.value));
     ocultarAdelante()
     const textoEncriptado = desencriptar(textArea.value)
     mensaje.value = textoEncriptado;
@@ -75,6 +76,17 @@ function escuchar(){
     window.speechSynthesis.speak(msg);
 }
 
+let validacion = document.getElementById("mensaje");
 
+function validarCajaTexto(valor) {
+    if (valor === "") {
+        alert("El campo no puede estar vacío");
+        return false;
+    }   else if (!/^[a-z]+$/.test(valor)) {
+        alert("Solo se permiten letras minúsculas");
+        return false;
+    }
+    return true;
+}
 
 
