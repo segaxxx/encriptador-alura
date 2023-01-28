@@ -9,6 +9,7 @@ function btnEncriptar(){
     const textoEncriptado = encriptar(textArea.value)
     mensaje.value = textoEncriptado;
     textArea.value = "";
+    
 }
 
 function encriptar(stringEncriptado){
@@ -31,9 +32,10 @@ function encriptar(stringEncriptado){
 
 function btnDesencriptar(){
     ocultarAdelante()
-    const textoEncriptado = desencriptar(textArea.value)
+    const textoEncriptado = encriptar(textArea.value)
     mensaje.value = textoEncriptado;
     textArea.value = "";
+
 }
 
 
@@ -73,5 +75,6 @@ function escuchar(){
     msg.lang = "es-Es";
     window.speechSynthesis.speak(msg);
 }
+
 
 
