@@ -5,10 +5,12 @@ const contenido = document.querySelector("#resultado");
 const btnEscuchar = document.querySelector("#resultado");
 
 function btnEncriptar(){
-    ocultarAdelante()
-    const textoEncriptado = encriptar(textArea.value)
-    mensaje.value = textoEncriptado;
-    textArea.value = "";
+    if(!validarTexto()){
+        ocultarAdelante()
+        const textoEncriptado = encriptar(textArea.value)
+        mensaje.value = textoEncriptado;
+        textArea.value = "";
+    }
     
 }
 
@@ -32,7 +34,7 @@ function encriptar(stringEncriptado){
 
 function btnDesencriptar(){
     ocultarAdelante()
-    const textoEncriptado = encriptar(textArea.value)
+    const textoEncriptado = desencriptar(textArea.value)
     mensaje.value = textoEncriptado;
     textArea.value = "";
 
@@ -78,3 +80,13 @@ function escuchar(){
 
 
 
+function validarTexto(){
+    let textoEscrito = document.querySelector(".text-area").value;
+    let validador = textoEscrito.match(/^[a-z]*$/);
+
+    if(!validador || validador === 0) {
+        alert("Solo son permitidas letras minúsculas y sin acentos")
+        location.reload();
+        return true;
+    }
+}
